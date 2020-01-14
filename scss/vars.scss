@@ -1,3 +1,7 @@
-$color1:#E63946;
-$color2:#F6F6E9;
-$color3: #F6F6E9;
+$colors: #F2385A, #F5A503, #E9F1DF, #56D9CD, #3AA1BF;
+$max: length($colors);
+$dash: 70;
+$dash-gap: 10;
+$dash-space: $dash * ($max - 1) + $dash-gap * $max;
+$time: 6s;
+$time-step: $time/$max;
