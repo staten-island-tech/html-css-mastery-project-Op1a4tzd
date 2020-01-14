@@ -1,0 +1,113 @@
+@import 'vars';
+
+.back{
+    background-image: url(../media/304984372168211.png);
+}
+.WWIII{
+    font-size: 10rem;
+    margin-top: 5rem;
+    font-family: 'Indie Flower', cursive;
+}
+.WWIII:hover{
+  color: white;
+  font-weight: bolder;
+  
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.marg{
+    margin: 6rem;
+}
+#bean{}
+#bean:hover{
+    animation-name: pulse;
+    animation-duration: 5s;
+    filter: saturate(25);
+}
+#boys{}
+#boys:hover{
+  animation-name: flash;
+  animation-duration: 10s;
+}
+#sadcat{}
+#cadsat{}
+.catan{
+  height: 40vh;
+  width: 50vh;
+}
+#sadcat:hover{
+animation-name: flash;
+animation-duration: 10s;
+}
+#steve{
+
+}
+#carl{
+
+}
+#carl:hover{
+  animation-name: rubberBand;
+  animation-duration: 5s;
+}
+
+@keyframes pulse {
+    from {
+
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+
+      transform: scale3d(1, 1, 1);
+    }
+  }
+@keyframes flash {
+      from,
+      50%,
+      to {
+        opacity: 1;
+      }
+    
+      25%,
+      75% {
+        opacity: 0;
+      }
+    }
+@keyframes rubberBand {
+      from {
+        transform: scale3d(1, 1, 1);
+      }
+    
+      30% {
+        transform: scale3d(1.25, 0.75, 1);
+      }
+    
+      40% {
+        transform: scale3d(0.75, 1.25, 1);
+      }
+    
+      50% {
+        transform: scale3d(1.15, 0.85, 1);
+      }
+    
+      65% {
+        transform: scale3d(0.95, 1.05, 1);
+      }
+    
+      75% {
+        transform: scale3d(1.05, 0.95, 1);
+      }
+    
+      to {
+        transform: scale3d(1, 1, 1);
+      }
+    }
+   
