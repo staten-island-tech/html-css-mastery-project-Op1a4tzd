@@ -11,7 +11,7 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
   background-image: url(../media/spiltblood.jpg);
   -webkit-box-align: baseline;
@@ -22,6 +22,7 @@ html, body {
 .exp {
   font-family: 'Open sans', sans-serif;
   font-size: 6rem;
+  font-weight: lighter;
   color: white;
   margin: 6rem;
 }
@@ -30,5 +31,17 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15rem;
   color: white;
+}
+
+.back2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-image: url(../media/chern.jpg);
 }
 /*# sourceMappingURL=style.css.map */
