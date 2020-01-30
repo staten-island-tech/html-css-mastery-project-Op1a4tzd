@@ -1,0 +1,26 @@
+$colors: #F2385A, #F5A503, #E9F1DF, #56D9CD, #3AA1BF;
+$phone:600px;
+$tablet: 900px;
+$laptop: 1100px;
+$desktop: 1100px;
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+    @content;
+    }
+    }
+    @mixin laptop {
+    @media (max-width: #{$laptop}) {
+    @content;
+    }
+    }
+    @mixin desktop {
+    @media (max-width: #{$desktop}) {
+    @content;
+    }
+    }
+    @mixin phone {
+    @media (max-width: #{$phone}) {
+    @content;
+    }
+    }
