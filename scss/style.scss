@@ -11,9 +11,12 @@ body{
 .back1{
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 105vh;
+  width: 99vw;
   background-size: cover;
+  object-fit: cover;
   background-image: url(../media/spiltblood.jpg);
+  background-position: center;
   
     @include tablet{
     width: 100vw;
@@ -36,16 +39,21 @@ body{
   color: white;
   animation-name: fadeInUp;
   animation-duration: 3.6s;
+
+  @include tablet{
+    font-size: 16rem;
+  }
   
 }
 .back2{
   display:flex;
   flex-direction: column;
   background-image: url(../media/neva.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   @include tablet{
     width: 100vw;
   }
@@ -55,10 +63,11 @@ body{
   display:flex;
   flex-direction: column;
   background-image: url(../media/open.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   @include tablet{
     width: 100vw;
   }
@@ -67,10 +76,11 @@ body{
   display:flex;
   flex-direction: column;
   background-image: url(../media/bridge.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   @include tablet{
     width: 100vw;
   }

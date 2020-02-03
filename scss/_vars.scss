@@ -4,8 +4,8 @@ $tablet: 900px;
 $laptop: 1100px;
 $desktop: 1100px;
 
-@mixin tablet {
-    @media (max-width: #{$tablet}) {
+    @mixin tablet {
+    @media (min-width: #{$tablet}) {
     @content;
     }
     }

@@ -17,12 +17,16 @@ html body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 120vh;
+  height: 105vh;
+  width: 99vw;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-image: url(../media/spiltblood.jpg);
+  background-position: center;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .back1 {
     width: 100vw;
   }
@@ -53,6 +57,12 @@ html body {
           animation-duration: 3.6s;
 }
 
+@media (min-width: 900px) {
+  .spb {
+    font-size: 16rem;
+  }
+}
+
 .back2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,13 +72,14 @@ html body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../media/neva.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .back2 {
     width: 100vw;
   }
@@ -83,13 +94,14 @@ html body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../media/open.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .back3 {
     width: 100vw;
   }
@@ -104,13 +116,14 @@ html body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../media/bridge.jpg);
-  height: 140vh;
-  width: 100%;
+  height: 105vh;
+  width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .back4 {
     width: 100vw;
   }
