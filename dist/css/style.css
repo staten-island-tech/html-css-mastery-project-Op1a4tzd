@@ -17,6 +17,9 @@ html body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 105vh;
   width: 99vw;
   background-size: cover;
@@ -33,7 +36,7 @@ html body {
 }
 
 .marg {
-  margin: 6rem;
+  margin-left: 6rem;
 }
 
 .exp {
@@ -45,6 +48,12 @@ html body {
           animation-name: fadeInLeft;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+}
+
+@media (min-width: 900px) {
+  .exp {
+    font-size: 7rem;
+  }
 }
 
 .spb {

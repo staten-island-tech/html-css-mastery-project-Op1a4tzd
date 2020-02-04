@@ -11,6 +11,7 @@ body{
 .back1{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 105vh;
   width: 99vw;
   background-size: cover;
@@ -23,7 +24,7 @@ body{
   }
 }
 .marg{
-  margin: 6rem;
+  margin-left: 6rem;
 }
 .exp{
   font-family: 'Open sans', sans-serif;
@@ -32,6 +33,10 @@ body{
   color: white;
   animation-name: fadeInLeft;
   animation-duration: 3s;
+  @include tablet{
+    font-size: 7rem;
+  }
+  
 }
 .spb{
   font-family: 'Montserrat', sans-serif;
@@ -39,7 +44,6 @@ body{
   color: white;
   animation-name: fadeInUp;
   animation-duration: 3.6s;
-
   @include tablet{
     font-size: 16rem;
   }
