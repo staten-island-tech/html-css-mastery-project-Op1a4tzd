@@ -10,17 +10,17 @@ $desktop: 1100px;
     }
     }
     @mixin laptop {
-    @media (max-width: #{$laptop}) {
+    @media (min-width: #{$laptop}) {
     @content;
     }
     }
     @mixin desktop {
-    @media (max-width: #{$desktop}) {
+    @media (min-width: #{$desktop}) {
     @content;
     }
     }
     @mixin phone {
-    @media (max-width: #{$phone}) {
+    @media (min-width: #{$phone}) {
     @content;
     }
     }

@@ -6,6 +6,7 @@ html{
 body{
   padding: 0px;
   margin: 0px;
+
 }
 }
 .back1{
@@ -13,14 +14,14 @@ body{
   flex-direction: column;
   justify-content: center;
   height: 105vh;
-  width: 99vw;
   background-size: cover;
   object-fit: cover;
   background-image: url(../media/spiltblood.jpg);
   background-position: center;
-  
+
     @include tablet{
     width: 100vw;
+    
   }
 }
 .marg{
@@ -40,12 +41,17 @@ body{
 }
 .spb{
   font-family: 'Montserrat', sans-serif;
-  font-size: 25rem;
+ 
   color: white;
   animation-name: fadeInUp;
   animation-duration: 3.6s;
+
+ 
   @include tablet{
     font-size: 16rem;
+  }
+  @include desktop{
+    font-size: 22rem;
   }
   
 }
@@ -54,7 +60,7 @@ body{
   flex-direction: column;
   background-image: url(../media/neva.jpg);
   height: 105vh;
-  width: 99vw;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,7 +74,7 @@ body{
   flex-direction: column;
   background-image: url(../media/open.jpg);
   height: 105vh;
-  width: 99vw;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,7 +87,7 @@ body{
   flex-direction: column;
   background-image: url(../media/bridge.jpg);
   height: 105vh;
-  width: 99vw;
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
