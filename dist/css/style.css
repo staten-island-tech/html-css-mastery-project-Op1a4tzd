@@ -7,6 +7,7 @@ html {
 html body {
   padding: 0px;
   margin: 0px;
+  background-color: #f1ffffe7;
 }
 
 .back1 {
@@ -24,6 +25,8 @@ html body {
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-clip-path: ellipse(81% 67% at 37% 30%);
+          clip-path: ellipse(81% 67% at 37% 30%);
   background-image: url(../media/spiltblood.jpg);
   background-position: center;
 }
@@ -31,6 +34,8 @@ html body {
 @media (min-width: 900px) {
   .back1 {
     width: 100vw;
+    -webkit-clip-path: ellipse(99% 67% at 37% 30%);
+            clip-path: ellipse(99% 67% at 37% 30%);
   }
 }
 
@@ -86,6 +91,8 @@ html body {
           flex-direction: column;
   background-image: url(../media/neva.jpg);
   height: 105vh;
+  -webkit-clip-path: ellipse(81% 67% at 64% 70%);
+          clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,6 +101,8 @@ html body {
 @media (min-width: 900px) {
   .back2 {
     width: 100vw;
+    -webkit-clip-path: ellipse(99% 67% at 64% 70%);
+            clip-path: ellipse(99% 67% at 64% 70%);
   }
 }
 
@@ -107,6 +116,8 @@ html body {
           flex-direction: column;
   background-image: url(../media/open.jpg);
   height: 105vh;
+  -webkit-clip-path: ellipse(81% 67% at 37% 30%);
+          clip-path: ellipse(81% 67% at 37% 30%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -115,6 +126,8 @@ html body {
 @media (min-width: 900px) {
   .back3 {
     width: 100vw;
+    -webkit-clip-path: ellipse(99% 67% at 37% 30%);
+            clip-path: ellipse(99% 67% at 37% 30%);
   }
 }
 
@@ -128,6 +141,8 @@ html body {
           flex-direction: column;
   background-image: url(../media/bridge.jpg);
   height: 105vh;
+  -webkit-clip-path: ellipse(81% 67% at 64% 70%);
+          clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -136,6 +151,8 @@ html body {
 @media (min-width: 900px) {
   .back4 {
     width: 100vw;
+    -webkit-clip-path: ellipse(99% 67% at 64% 70%);
+            clip-path: ellipse(99% 67% at 64% 70%);
   }
 }
 

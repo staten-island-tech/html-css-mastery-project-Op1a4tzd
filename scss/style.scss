@@ -6,7 +6,7 @@ html{
 body{
   padding: 0px;
   margin: 0px;
-
+  background-color: #f1ffffe7;
 }
 }
 .back1{
@@ -16,12 +16,13 @@ body{
   height: 105vh;
   background-size: cover;
   object-fit: cover;
+  clip-path: ellipse(81% 67% at 37% 30%);
   background-image: url(../media/spiltblood.jpg);
   background-position: center;
 
     @include tablet{
     width: 100vw;
-    
+    clip-path: ellipse(99% 67% at 37% 30%);
   }
 }
 .marg{
@@ -60,12 +61,13 @@ body{
   flex-direction: column;
   background-image: url(../media/neva.jpg);
   height: 105vh;
-
+  clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   @include tablet{
     width: 100vw;
+    clip-path: ellipse(99% 67% at 64% 70%);
   }
   
 }
@@ -74,12 +76,13 @@ body{
   flex-direction: column;
   background-image: url(../media/open.jpg);
   height: 105vh;
-
+  clip-path: ellipse(81% 67% at 37% 30%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   @include tablet{
     width: 100vw;
+    clip-path: ellipse(99% 67% at 37% 30%);
   }
 }
 .back4{
@@ -87,12 +90,13 @@ body{
   flex-direction: column;
   background-image: url(../media/bridge.jpg);
   height: 105vh;
-  
+  clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   @include tablet{
     width: 100vw;
+    clip-path: ellipse(99% 67% at 64% 70%);
   }
  
 }
