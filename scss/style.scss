@@ -76,13 +76,44 @@ body{
   flex-direction: column;
   font-size: 10rem;
   font-family: 'Montserrat', sans-serif;
+  margin: 3rem;
+  @include tablet{
+    font-size: 5vh;
+    margin-left: 8rem;
+  }
+  @include desktop{
+    font-size: 7rem;  
+    font-weight: bold;
+  }
+}
+.par2{
+  font-size: 3rem;
+  font-family: 'Open sans', sans-serif;
+  max-width: 50%;
+  margin-left: 2rem; 
+  @include tablet{
+    font-size: 2.4rem;
+    min-width: 80%;
+  }
+  @include desktop{
+    min-width: 80%;
+    font-size: 3rem;
+    font-weight: normal;
+  }
 }
 #pict2{
   height: 45rem;
-  margin: 15rem;
-}
-.par2{
-  font-size: 4rem;
+  margin: 10rem;
+  border: yellowgreen solid 10px;
+  
+  @include tablet{
+    max-height: 20%;
+    margin: 3rem;
+  }
+  @include desktop{
+    min-height: 45rem;
+    margin: 10rem;
+  }
 }
 .back3{
   display:flex;
