@@ -125,6 +125,12 @@ html body {
   margin: 3rem;
 }
 
+@media (min-width: 600px) {
+  .text2 {
+    font-size: 10vh;
+  }
+}
+
 @media (min-width: 900px) {
   .text2 {
     font-size: 5vh;
@@ -148,7 +154,6 @@ html body {
 
 @media (min-width: 900px) {
   .par2 {
-    font-size: 2.4rem;
     min-width: 80%;
   }
 }
@@ -169,7 +174,7 @@ html body {
 
 @media (min-width: 900px) {
   #pict2 {
-    max-height: 20%;
+    max-height: 18%;
     margin: 3rem;
   }
 }
@@ -280,6 +285,28 @@ html body {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

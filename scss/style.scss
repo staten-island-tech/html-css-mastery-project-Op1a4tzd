@@ -77,6 +77,9 @@ body{
   font-size: 10rem;
   font-family: 'Montserrat', sans-serif;
   margin: 3rem;
+  @include phone{
+    font-size: 10vh;
+  }
   @include tablet{
     font-size: 5vh;
     margin-left: 8rem;
@@ -92,7 +95,7 @@ body{
   max-width: 50%;
   margin-left: 2rem; 
   @include tablet{
-    font-size: 2.4rem;
+   
     min-width: 80%;
   }
   @include desktop{
@@ -107,7 +110,7 @@ body{
   border: yellowgreen solid 10px;
   
   @include tablet{
-    max-height: 20%;
+    max-height: 18%;
     margin: 3rem;
   }
   @include desktop{
@@ -168,5 +171,16 @@ body{
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
   }
 }
