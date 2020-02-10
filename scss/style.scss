@@ -77,12 +77,10 @@ body{
   font-size: 10rem;
   font-family: 'Montserrat', sans-serif;
   margin: 3rem;
-  @include phone{
-    font-size: 10vh;
-  }
+  
   @include tablet{
-    font-size: 5vh;
-    margin-left: 8rem;
+    font-size: 3.3vh;
+    margin-left: 10vw;
   }
   @include desktop{
     font-size: 7rem;  
@@ -91,7 +89,7 @@ body{
 }
 .par2{
   font-size: 3rem;
-  font-family: 'Open sans', sans-serif;
+ 
   max-width: 50%;
   margin-left: 2rem; 
   @include tablet{

@@ -125,16 +125,10 @@ html body {
   margin: 3rem;
 }
 
-@media (min-width: 600px) {
-  .text2 {
-    font-size: 10vh;
-  }
-}
-
 @media (min-width: 900px) {
   .text2 {
-    font-size: 5vh;
-    margin-left: 8rem;
+    font-size: 3.3vh;
+    margin-left: 10vw;
   }
 }
 
@@ -147,7 +141,6 @@ html body {
 
 .par2 {
   font-size: 3rem;
-  font-family: 'Open sans', sans-serif;
   max-width: 50%;
   margin-left: 2rem;
 }
