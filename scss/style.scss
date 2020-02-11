@@ -80,7 +80,7 @@ body{
   
   @include tablet{
     font-size: 3.3vh;
-    margin-left: 10vw;
+    margin-left: 2vw;
   }
   @include desktop{
     font-size: 7rem;  
@@ -103,8 +103,8 @@ body{
   }
 }
 #pict2{
-  height: 45rem;
-  margin: 10rem;
+  height: 30rem;
+  
   border: yellowgreen solid 10px;
   
   @include tablet{
@@ -112,8 +112,34 @@ body{
     margin: 3rem;
   }
   @include desktop{
-    min-height: 45rem;
-    margin: 10rem;
+    max-height: 30rem;
+    max-width: 50vh;
+    margin-top: 7vh;
+    margin-left: 10vh;
+  }
+}
+#pict3{
+  height: 25vh;
+  border: yellowgreen solid 10px;
+  
+  @include tablet{
+    max-height: 18%;
+    margin-top: 2vh;
+    margin-right: 2vh;
+  }
+  @include desktop{
+    min-height: 35rem;
+    
+  }
+}
+.over{
+  display: flex;
+  flex-direction: column;
+  @include tablet{
+    max-width: 50vw;
+  }
+  @include desktop{
+    margin-right: 10vh;
   }
 }
 .back3{

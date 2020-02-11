@@ -128,7 +128,7 @@ html body {
 @media (min-width: 900px) {
   .text2 {
     font-size: 3.3vh;
-    margin-left: 10vw;
+    margin-left: 2vw;
   }
 }
 
@@ -160,8 +160,7 @@ html body {
 }
 
 #pict2 {
-  height: 45rem;
-  margin: 10rem;
+  height: 30rem;
   border: yellowgreen solid 10px;
 }
 
@@ -174,8 +173,51 @@ html body {
 
 @media (min-width: 1100px) {
   #pict2 {
-    min-height: 45rem;
-    margin: 10rem;
+    max-height: 30rem;
+    max-width: 50vh;
+    margin-top: 7vh;
+    margin-left: 10vh;
+  }
+}
+
+#pict3 {
+  height: 25vh;
+  border: yellowgreen solid 10px;
+}
+
+@media (min-width: 900px) {
+  #pict3 {
+    max-height: 18%;
+    margin-top: 2vh;
+    margin-right: 2vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  #pict3 {
+    min-height: 35rem;
+  }
+}
+
+.over {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .over {
+    max-width: 50vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .over {
+    margin-right: 10vh;
   }
 }
 
