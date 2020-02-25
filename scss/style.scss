@@ -18,13 +18,14 @@ body{
   object-fit: cover;
   clip-path: ellipse(81% 67% at 37% 30%);
   background-image: url(../media/spiltblood.jpg);
-  background-position: center;
+  background-position: top;
 
     @include tablet{
     width: 100vw;
     clip-path: ellipse(99% 67% at 37% 30%);
   }
 }
+
 .marg{
   margin-left: 6rem;
 }
@@ -186,9 +187,9 @@ body{
 .back4{
   display:flex;
   align-items: center;
-
+  background-position: center;
   justify-content: space-evenly;
-  background-image: url(../media/bridge.jpg);
+  background-image: url(../media/ekat2.jpg);
   height: 105vh;
   clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
@@ -201,12 +202,27 @@ body{
  
 }
 .three{
-max-height: 25vh;
-border: solid 20px cornflowerblue;
+  border: solid 5px cornflowerblue;
+
+@include tablet{
+  max-width: 30vh;
 }
-#rotate90{
+@include desktop{
+  min-width: 30vh;
+}
+@include phone{
+  max-width: 15vh;
+}
+
+}
+#rotate270{
   transform: rotate(270deg);
 }
+#rotate90{
+  transform: rotate(90deg);
+}
+
+
 
 @keyframes fadeInUp {
   from {
