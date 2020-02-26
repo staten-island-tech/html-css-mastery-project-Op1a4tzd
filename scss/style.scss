@@ -204,6 +204,7 @@ body{
 .three{
   border: solid 5px cornflowerblue;
 
+
 @include tablet{
   max-width: 30vh;
 }
@@ -214,6 +215,10 @@ body{
   max-width: 15vh;
 }
 
+}
+.three:hover{
+  transform: scale(20%);
+  
 }
 #rotate270{
   transform: rotate(270deg);
