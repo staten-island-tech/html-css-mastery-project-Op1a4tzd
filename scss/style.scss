@@ -202,6 +202,8 @@ body{
  
 }
 .three{
+  display:flex;
+  flex-direction: column;
   border: solid 5px cornflowerblue;
 
 
@@ -225,8 +227,27 @@ body{
 #rotate90{
   transform: rotate(90deg);
 }
-
-
+.talk{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+  
+}
+.head{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-left: 0px;
+}
+.toes{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
 
 @keyframes fadeInUp {
   from {

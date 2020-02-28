@@ -315,6 +315,13 @@ html body {
 }
 
 .three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: solid 5px cornflowerblue;
 }
 
@@ -347,6 +354,33 @@ html body {
 #rotate90 {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+}
+
+.talk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.head {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-left: 0px;
+}
+
+.toes {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-left: 3rem;
 }
 
 @-webkit-keyframes fadeInUp {
