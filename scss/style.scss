@@ -28,16 +28,19 @@ body{
 
 .marg{
   margin-left: 6rem;
+  margin-top: -2rem;
 }
 .exp{
   font-family: 'Open sans', sans-serif;
-  font-size: 12rem;
   font-weight: lighter;
   color: white;
   animation-name: fadeInLeft;
   animation-duration: 3s;
   @include tablet{
     font-size: 7rem;
+  }
+  @include desktop{
+    font-size: 6rem;
   }
   
 }
@@ -60,7 +63,7 @@ body{
   display:flex;
   flex-direction: row;
   background-color: #f1ffffe7;
-  height: 105vh;
+  
   justify-content: center;
   align-items: center;
   clip-path: ellipse(81% 67% at 64% 70%);
@@ -69,10 +72,12 @@ body{
   background-position: center;
   @include tablet{
     width: 100vw;
+    height: 75vh;
     clip-path: ellipse(99% 67% at 64% 70%);
   }
   @include desktop{
     font-size: 5rem;
+    height: 105vh;
   }
 }
 .text2{
@@ -86,6 +91,7 @@ body{
   @include tablet{
     font-size: 3.3vh;
     margin-left: 2vw;
+   
   }
   @include desktop{
     font-size: 5rem;  
@@ -161,7 +167,7 @@ body{
 .monst{
   font-family: 'Montserrat', sans-serif;
   @include phone{
-    font-size: .25vh;
+    font-size: .37vh;
   }
 
   @include desktop{
@@ -190,14 +196,18 @@ body{
   background-position: center;
   justify-content: space-evenly;
   background-image: url(../media/ekat2.jpg);
-  height: 105vh;
+  
   clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   @include tablet{
     width: 100vw;
+    height: 85vh;
     clip-path: ellipse(99% 67% at 64% 70%);
+  }
+  @include desktop{
+    height: 105vh;
   }
  
 }
@@ -228,7 +238,7 @@ body{
   transform: rotate(90deg);
 }
 #down{
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .talk{
   display: flex;
