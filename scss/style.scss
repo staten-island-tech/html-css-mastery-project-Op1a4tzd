@@ -195,7 +195,7 @@ body{
   align-items: center;
   background-position: center;
   justify-content: space-evenly;
-  background-image: url(../media/ekat2.jpg);
+  background-image: url(../media/bridge.jpg);
   
   clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
@@ -203,11 +203,11 @@ body{
   background-position: center;
   @include tablet{
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     clip-path: ellipse(99% 67% at 64% 70%);
   }
   @include desktop{
-    height: 105vh;
+    height: 110vh;
   }
  
 }
@@ -260,6 +260,21 @@ body{
   max-width: 21rem;
   font-style: italic;
   
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../media/ekat2.jpg);
+ background-size: cover;
+ background-position: center;
+  height: 100vh;
+
+}
+.ciee{
+  width: 80vh;
+  height: 50vh;
+  border: white solid 5px;
 }
 
 @keyframes fadeInUp {

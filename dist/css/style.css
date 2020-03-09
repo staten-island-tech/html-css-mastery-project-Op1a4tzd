@@ -304,7 +304,7 @@ html body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-image: url(../media/ekat2.jpg);
+  background-image: url(../media/bridge.jpg);
   -webkit-clip-path: ellipse(81% 67% at 64% 70%);
           clip-path: ellipse(81% 67% at 64% 70%);
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ html body {
 @media (min-width: 900px) {
   .back4 {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     -webkit-clip-path: ellipse(99% 67% at 64% 70%);
             clip-path: ellipse(99% 67% at 64% 70%);
   }
@@ -323,7 +323,7 @@ html body {
 
 @media (min-width: 1100px) {
   .back4 {
-    height: 105vh;
+    height: 110vh;
   }
 }
 
@@ -399,6 +399,28 @@ html body {
   font-size: 1.5rem;
   max-width: 21rem;
   font-style: italic;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../media/ekat2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.ciee {
+  width: 80vh;
+  height: 50vh;
+  border: white solid 5px;
 }
 
 @-webkit-keyframes fadeInUp {
