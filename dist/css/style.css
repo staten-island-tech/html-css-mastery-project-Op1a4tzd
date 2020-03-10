@@ -405,6 +405,10 @@ html body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -415,12 +419,19 @@ html body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .ciee {
   width: 80vh;
   height: 50vh;
   border: white solid 5px;
+}
+
+.cred {
+  background-color: #003355a2;
+  height: 10vh;
+  width: 100vw;
 }
 
 @-webkit-keyframes fadeInUp {
