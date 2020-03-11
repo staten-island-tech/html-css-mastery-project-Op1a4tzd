@@ -207,7 +207,7 @@ body{
     clip-path: ellipse(99% 67% at 64% 70%);
   }
   @include desktop{
-    height: 110vh;
+    height: 120vh;
   }
  
 }
@@ -262,6 +262,7 @@ body{
   
 }
 .video{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -274,15 +275,35 @@ body{
 
 }
 .ciee{
+  border: white solid 5px;
+
+  @include desktop{
   width: 80vh;
   height: 50vh;
-  border: white solid 5px;
+}
+  @include tablet{
+    height: 50vh;
+    width: 60vh;
+  }
 }
 .cred{
- 
-  background-color: #003355a2;
+  display:flex;
+ position: absolute;
+ bottom: 0;
+  background-color: #302747a2;
   height: 10vh;
   width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  font-size: 2rem;
+  justify-content: baseline;
+  align-items: center;
+  font-weight: bolder;
+}
+.icon{
+  height: 5vh;
+  width: 3vw;
+  margin-left: 2vh;
 }
 @keyframes fadeInUp {
   from {
