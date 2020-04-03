@@ -148,7 +148,7 @@ html body {
 
 @media (min-width: 1100px) {
   .text2 {
-    font-size: 5rem;
+    font-size: 4vw;
     font-weight: bold;
   }
 }
@@ -168,7 +168,7 @@ html body {
 @media (min-width: 1100px) {
   .par2 {
     min-width: 80%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: normal;
   }
 }
@@ -258,13 +258,13 @@ html body {
 
 @media (min-width: 600px) {
   .monst {
-    font-size: .37vh;
+    font-size: .3vh;
   }
 }
 
 @media (min-width: 1100px) {
   .monst {
-    font-size: .8vh;
+    font-size: .54vh;
   }
 }
 
@@ -427,17 +427,17 @@ html body {
   border: white solid 5px;
 }
 
+@media (min-width: 600px) {
+  .ciee {
+    height: 50vh;
+    width: 35vh;
+  }
+}
+
 @media (min-width: 1100px) {
   .ciee {
     width: 80vh;
     height: 50vh;
-  }
-}
-
-@media (min-width: 900px) {
-  .ciee {
-    height: 50vh;
-    width: 60vh;
   }
 }
 
@@ -462,10 +462,16 @@ html body {
   font-weight: bolder;
 }
 
-.icon {
-  height: 5vh;
-  width: 3vw;
-  margin-left: 2vh;
+@media (min-width: 600px) {
+  .credtext {
+    margin-left: 72vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .credtext {
+    margin-left: 85vw;
+  }
 }
 
 @-webkit-keyframes fadeInUp {

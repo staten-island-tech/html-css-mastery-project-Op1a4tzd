@@ -94,7 +94,7 @@ body{
    
   }
   @include desktop{
-    font-size: 5rem;  
+    font-size: 4vw;  
     font-weight: bold;
   }
 }
@@ -109,7 +109,7 @@ body{
   }
   @include desktop{
     min-width: 80%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: normal;
   }
 }
@@ -166,15 +166,14 @@ body{
 }
 .monst{
   font-family: 'Montserrat', sans-serif;
-  @include phone{
-    font-size: .37vh;
-  }
 
-  @include desktop{
-    font-size: .8vh;
-  }
+@include phone{
+    font-size: .3vh;
+}
 
-
+@include desktop{
+  font-size: .54vh
+}
 }
 .back3{
   display:flex;
@@ -277,17 +276,22 @@ body{
 .ciee{
   border: white solid 5px;
 
-  @include desktop{
-  width: 80vh;
-  height: 50vh;
-}
-  @include tablet{
+
+  @include phone{
     height: 50vh;
-    width: 60vh;
+    width: 35vh;
   }
+
+  @include desktop{
+    width: 80vh;
+    height: 50vh;
+  }
+ 
+  
+
 }
 .cred{
-  display:flex;
+ display:flex;
  position: absolute;
  bottom: 0;
   background-color: #302747a2;
@@ -300,10 +304,13 @@ body{
   align-items: center;
   font-weight: bolder;
 }
-.icon{
-  height: 5vh;
-  width: 3vw;
-  margin-left: 2vh;
+.credtext{
+  @include phone{
+    margin-left: 72vw;
+  }
+@include desktop{
+margin-left: 85vw;
+}
 }
 @keyframes fadeInUp {
   from {
